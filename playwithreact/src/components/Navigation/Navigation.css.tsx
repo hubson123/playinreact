@@ -20,6 +20,7 @@ export const Link = styled.a`
   cursor: pointer;
   text-decoration: none !important;
   font-family: "Merriweather", serif;
+  color: black;
   :hover {
     color: ${({ theme }) => theme.color.hover};
   }
