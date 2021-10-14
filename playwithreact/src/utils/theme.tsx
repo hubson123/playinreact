@@ -8,5 +8,6 @@ export default {
   color: {
     navColor: "#de8526",
     hover: "#882de3",
+    gray: "#938e99",
   },
 };

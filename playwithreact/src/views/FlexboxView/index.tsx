@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Button } from "../../components/Button/Button.css";
+import Footer from "../../components/Footer";
 import Navigation from "../../components/Navigation";
 
 const FlexboxView = () => {
@@ -14,6 +15,8 @@ const FlexboxView = () => {
     <>
       <Navigation />
       {loadState == false && <Button onClick={loadData}>Załaduj dane</Button>}
+
+      <Footer />
     </>
   );
 };
