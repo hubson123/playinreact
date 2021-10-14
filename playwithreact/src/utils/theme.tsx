@@ -6,8 +6,10 @@ export default {
     xl: 20,
   },
   color: {
-    navColor: "#de8526",
+    navColor: "#40668f",
     hover: "#882de3",
     gray: "#938e99",
+    blue: "#5c8cbf",
+    man: "#471637",
   },
 };
